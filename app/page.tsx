@@ -9,9 +9,6 @@ import ImgSafe from "@/components/ImgSafe";
 export default function Home() {
   return (
     <>
-      {/* Marco morado fijo */}
-      <div className="frame" aria-hidden />
-
       {siteConfig.mariposas && <Butterflies />}
 
       <main className="relative">
